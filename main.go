@@ -1,7 +1,11 @@
 package main
 
-import stones "github.com/White-AK111/algorithms/stones"
+import (
+	"github.com/White-AK111/algorithms/stones"
+	"github.com/White-AK111/algorithms/units"
+)
 
 func main() {
 	stones.GetJewelry()
+	units.GetMaxUnits()
 }

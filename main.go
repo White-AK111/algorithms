@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/White-AK111/algorithms/travel"
-)
+import "github.com/White-AK111/algorithms/credit"
 
 func main() {
 	//stones.GetJewelry()
@@ -10,5 +8,6 @@ func main() {
 	//duplicates.DeleteDuplicates()
 	//brackets.DoBrackets()
 	//anagrams.CheckAnagrams()
-	travel.FindWay()
+	//travel.FindWay()
+	credit.GetCredit()
 }
